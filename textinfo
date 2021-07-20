@@ -1,0 +1,51 @@
+# Functions with text (legend for program)
+
+
+def intro_legend():
+    print('The ultimate guide to Pokemon stats: The Pokemon Encyclopedia')
+    print('What would you like to view?')
+    print('')
+    print('----------------------------- LEGEND --------------------------------')
+    print('General Statistical Data (Mean, max stat, min stat, etc...) --------------------------------- 1')
+    print('Pokemon-specific data (Individual pokemon stats) -------------------------------------------- 2')
+    print('')
+
+
+def specific_data():
+    print('-------------------------------------------------------------------------')
+    print('')
+    print('You have selected: Specific Data')
+    print('')
+    print('Simply enter the pokemon name you want to see information of.')
+    print('Use the following format: Xxxxx (Use uppercase for 1st letter).')
+    print('')
+    print('-------------------------------------------------------------------------')
+
+
+def gen_data_legend():
+    print('-------------------------------------------------------------------------')
+    print('')
+    print('You have selected: General Data')
+    print('')
+    print('Legend:')
+    print('')
+    print('TOTAL STATISTICS (Hp, attack, defense, sp.attack, sp.def, speed')
+    print('1a - Mean')
+    print('1b - Median')
+    print('')
+    print('Max Statistic')
+    print('2 - Hp, attack, defense, sp.attack, sp.def, speed')
+    print('')
+    print('Min Statistic')
+    print('3 - Hp, attack, defense, sp.attack, sp.def, speed')
+    print('')
+    print('Program Statistics (For nerds)')
+    print('4a - Statistical Data')
+    print('4b - Data Types')
+    print('')
+    print('-------------------------------------------------------------------------')
+
+
+def error_message():
+    print('Error: Please follow the legend outlined above.')
+    print('')
