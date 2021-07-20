@@ -1,17 +1,12 @@
 import pandas as pd  # Importing pandas, numpy library to analyse data
 import numpy as np
-from pandas.core.indexes.base import Index
-
-# Import from file 'text1.py'
-from text1 import intro_legend, gen_data_legend, specific_data, error_message
-
+from textinfo import intro_legend, gen_data_legend, specific_data, error_message
 
 def get_data():
     global df
     # Gather data from csv file, create variables to access statistical infromation from data frame
     df = pd.read_csv('PYTHON/NOTES/Machine Learning/Pandas/Pokemon/pokemonstats.csv')
     print('Data collected succesfully.')
-
 
 get_data()
 statistics = df.describe()
